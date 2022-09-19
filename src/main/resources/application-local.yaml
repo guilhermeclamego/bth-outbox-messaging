@@ -1,0 +1,15 @@
+server:
+   port: 8081
+
+spring:
+  datasource-postgres:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: event
+    driver-class-name: org.postgresql.Driver
+
+#  datasource-oracle:
+#    url: localhost:1521:teste
+#    username: TESTE
+#    password: teste
+#    driver-class-name: oracle.jdbc.OracleDriver

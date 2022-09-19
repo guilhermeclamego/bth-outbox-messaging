@@ -1,0 +1,13 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  jpa:
+    hibernate.ddl-auto: none
+    show-sql: true
+
+  datasource-postgres:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: event
+    driver-class-name: org.postgresql.Driver
